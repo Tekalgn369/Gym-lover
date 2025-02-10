@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+  width: 100%;
+}
+
+/* header */
+header {
+  /* if you want fixed header */
+  /* position: fixed;
+  width: 100%; */
+  background-color: #195774;
+}
+header div{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 15px 0 20px;
+}
+.Banner img {
+  max-width: 100%;
+}
+.three-images {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 30px auto;
+}
+.three-images > div {
+  width: 30%;
+}
+
+/* missing images */
+.middle {
+  background-color: red;
+}
+.Missing {
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Description */
+.GYm-description {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* two images */
+.two-imaages {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.two-imaages div {
+  width: 47.5%;
+}
+
+/* Footer css */
+.footer-wrapper {
+  padding: 75px 0 80px;
+  background-color: #195774;
+  margin-top: 30px;
+}
+.footer-wrapper > div {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
